@@ -1,0 +1,301 @@
+<?php include'init.php';?>
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> KAERUS  </title>
+    <!-- favicons Icons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favions/favicon.ico" style="width: 200%;"/> 
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicons/favicon.ico"/>
+     <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicons/favicon.ico"/>
+    <link rel="manifest" href="assets/images/favicons/site.webmanifest" />
+    <meta name="description" content="Sonchoy HTML 5 Template " />
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100;0,9..40,200;0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;0,9..40,800;0,9..40,900;0,9..40,1000;1,9..40,100;1,9..40,200;1,9..40,300;1,9..40,400;1,9..40,500;1,9..40,600;1,9..40,700;1,9..40,800;1,9..40,900;1,9..40,1000&display=swap"
+        rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="assets/vendors/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/vendors/animate/animate.min.css" />
+    <link rel="stylesheet" href="assets/vendors/animate/custom-animate.css" />
+    <link rel="stylesheet" href="assets/vendors/fontawesome/css/all.min.css" />
+    <link rel="stylesheet" href="assets/vendors/jarallax/jarallax.css" />
+    <link rel="stylesheet" href="assets/vendors/jquery-magnific-popup/jquery.magnific-popup.css" />
+    <link rel="stylesheet" href="assets/vendors/odometer/odometer.min.css" />
+    <link rel="stylesheet" href="assets/vendors/swiper/swiper.min.css" />
+    <link rel="stylesheet" href="assets/vendors/sonchoy-icon/style.css">
+    <link rel="stylesheet" href="assets/vendors/owl-carousel/owl.carousel.min.css" />
+    <link rel="stylesheet" href="assets/vendors/owl-carousel/owl.theme.default.min.css" />
+    <link rel="stylesheet" href="assets/vendors/bootstrap-select/css/bootstrap-select.min.css" />
+    <link rel="stylesheet" href="assets/vendors/jquery-ui/jquery-ui.css" />
+    <link rel="stylesheet" href="assets/vendors/nice-select/nice-select.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-yhlqRwlK3Xjkld6XEt1ZIoVkZfV6OwBQ5SLf33NtAqGP27b7qT/6dVdC07frA8IRFRjmofA9azP6HZb41IXb5A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- template styles -->
+    <link rel="stylesheet" href="assets/css/sonchoy.css" />
+    <link rel="stylesheet" href="assets/css/color-2.css" />
+    <link rel="stylesheet" href="assets/css/sonchoy-responsive.css" />
+</head>
+
+<body>
+
+
+
+    <div class="preloader">
+        <div class="preloader__image"></div>
+    </div>
+    <!-- /.preloader -->
+
+
+
+
+    <div class="page-wrapper">
+    <?php
+    // Inclusion de l'en-tête
+    include 'header.php';
+?>
+
+        <div class="stricky-header stricked-menu main-menu">
+            <div class="sticky-header__content"></div><!-- /.sticky-header__content -->
+        </div><!-- /.stricky-header -->
+
+        <!--Page Header Start-->
+        <!-- <section class="page-header">
+            <div class="page-header__bg" style="background-image: url(assets/images/backgrounds/page-header-bg.jpg);">
+            </div>
+            <div class="container">
+                <div class="page-header__inner">
+                    <h2>Blog Details</h2>
+                    <div class="thm-breadcrumb__box">
+                        <ul class="thm-breadcrumb list-unstyled">
+                            <li><a href="index.php">Home</a></li>
+                            <li><span>-</span></li>
+                            <li>Blog Details</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+        <!--Page Header End-->
+
+        <!--Blog Details Start-->
+        <section class="blog-details">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-8 col-lg-7">
+                        <div class="blog-details__left">
+                            <div class="blog-details__img-1">
+                                <img src="assets/images/gallery/blog2.jpg"  style="margin-top: 51px;"alt="">
+                            </div>
+                            <div class="blog-details__content">
+                                <h3 class="blog-details__title-1"><?php echo $translations['TITLE14']?></h3>
+                                <!-- <ul class="list-unstyled blog-details__meta">
+                                    <li><a href="blog-details.php"><i class="fas fa-user-circle"></i> Admin</a>
+                                    </li>
+                                    <li><a href="blog-details.php"><i class="fas fa-comments"></i> 2 Comments</a>
+                                    </li>
+                                </ul> -->
+                            
+                            </div>
+                          
+
+
+
+                                <p  style="font-style: italic; text-align: justify; color:black;"><?php echo $translations['CYBERSECURITY_CHALLENGE_1']?></p>
+
+                                    <p  style="font-style: italic; text-align: justify; color:black;"><?php echo $translations['CYBERSECURITY_CHALLENGE_2']?></p>
+
+                                    <p  style="font-style: italic; text-align: justify; color:black;"><?php echo $translations['CYBERSECURITY_CHALLENGE_3']?></p>
+
+                                    <p  style="font-style: italic; text-align: justify; color:black;"><?php echo $translations['CYBERSECURITY_CHALLENGE_4']?></p>
+
+                                    <p  style="font-style: italic; text-align: justify; color:black;"><?php echo $translations['CYBERSECURITY_CHALLENGE_5']?></p>
+
+                                    <p  style="font-style: italic; text-align: justify; color:black;"><?php echo $translations['CYBERSECURITY_CHALLENGE_6']?></p>
+
+
+                            <!-- <div class="blog-details__quote-box" style="margin-top:15%;    margin-bottom:15%;">
+                                <div class="blog-details__quote-icon">
+                                    <span class="icon-quote-1"></span>
+                                </div>
+                                <p class="blog-details__quote-text">La comptabilité est l'une des professions qui a le plus besoin d'honnêteté, de précision et d'attention, nous devons donc apprécier le travail des comptables et respecter leurs efforts.</p>
+                            
+                            </div> -->
+
+                        </div>
+                    </div>
+                  <div class="col-xl-4 col-lg-5">
+                        <div class="sidebar">
+                            <div class="sidebar__single sidebar__post" style="margin-top: 49px;">
+                                <h3 class="sidebar__title"><?php echo $translations['recent_post']; ?></h3>
+                                <ul class="sidebar__post-list list-unstyled">
+                                     <li>
+                                        <div class="sidebar__post-image">
+                                            <img src="assets/images/gallery/blog1.png" alt="">
+                                        </div>
+                                        <div class="sidebar__post-content">
+                                            <h3>
+                                                <a href="blog-details1.php"><?php echo $translations['TITLE11']?></</</a>
+                                                 <span class="sidebar__post-content-meta"><i class="icon-clock"></i><?php echo $translations['TITLE10']?></span>
+                                            </h3>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="sidebar__post-image">
+                                            <img src="assets/images/gallery/blog2.jpg" alt="">
+
+                                        </div>
+                                        <div class="sidebar__post-content">
+                                            <h3>
+                                                <a href="blog-details2.php"><?php echo $translations['TITLE14']?></</a>
+                                                <span class="sidebar__post-content-meta"><i class="icon-clock"></i><?php echo $translations['TITLE13']?></</span>
+                                            </h3>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="sidebar__post-image">
+                                            <img src="assets/images/gallery/man-saving-money-energy-crisis.jpeg" alt="">
+                                            <!-- <img src="assets/images/blog/blog-1-50.webp" alt=""> -->
+                                        </div>
+                                        <div class="sidebar__post-content">
+                                            <h3>
+                                                <a href="blog-details3.php"><?php echo $translations['TITLE20']?></a>
+                                               <span class="sidebar__post-content-meta"><i class="icon-clock"></i><?php echo $translations['TITLE15']?></</span>
+                                            </h3>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+
+
+                                <div class="insurance-details__catagories" style="margin-top: 35%;">
+                                <h3 class="insurance-details__catagories-title"><?php echo $translations['services']?></h3>
+                                <ul class="insurance-details__catagories-list list-unstyled">
+                                    <li>
+                                        <a href="service-Conseil.php.php"><?php echo $translations['SERVICE_CONSEIL']?><span class="icon-next"></span></a>
+                                    </li>
+                                    <li>
+                                        <a href="service-audit.php"><?php echo $translations['SERVICE_AUDIT']?><span
+                                                class="icon-next"></span></a>
+                                    </li>
+                                    <li>
+                                        <a href="service-Impot-taxes.php"><?php echo $translations['SERVICE_IMPOT_TAXES']?><span class="icon-next"></span></a>
+                                    </li>
+                                     <li>
+                                        <a href="service-Collaboration.php"><?php echo $translations['SERVICE_COLLABORATIONS']?><span class="icon-next"></span></a>
+                                    </li>
+                                   
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+             <!-- Contact Form -->
+        <form id="contactForm" ref={form} onSubmit={sendEmail} action="assets/inc/sendemail.php" class="comment-one__form contact-form-validated" novalidate="novalidate">
+            <div class="content" style="margin-top: 40px;">
+                <div class="container comment-form">
+                    <h3 class="comment-one__title"><?php echo $translations['contact_title']; ?></h3>
+
+                    <div class="row">
+                        <div class="col-xl-6 col-lg-6">
+                            <div class="comment-form__input-box">
+                                <input type="text" placeholder="<?php echo $translations['company_name']; ?>" name="societe" required>
+                            </div>
+                        </div>
+                        <div class="col-xl-6 col-lg-6">
+                            <div class="comment-form__input-box">
+                                <input type="text" placeholder="<?php echo $translations['name']; ?>" name="nom" required>
+                            </div>
+                        </div>
+                        <div class="col-xl-6 col-lg-6">
+                            <div class="comment-form__input-box">
+                                <input type="email" placeholder="<?php echo $translations['email']; ?>" name="gmail" required>
+                            </div>
+                        </div>
+                        <div class="col-xl-6 col-lg-6">
+                            <div class="comment-form__input-box">
+                                <input type="text" placeholder="<?php echo $translations['website']; ?>" name="siteWeb">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xl-12 col-lg-12">
+                            <div class="comment-form__input-box text-message-box">
+                                <textarea name="message" placeholder="<?php echo $translations['message']; ?>"></textarea>
+                            </div>
+                            <div class="comment-form__btn-box">
+                                <button type="submit" style="margin-bottom: 20px;" class="thm-btn comment-form__btn"><?php echo $translations['send_message']; ?></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+
+        <!--Blog Details End-->
+
+
+        <!--Site Footer Start-->
+        <?php
+    // Inclusion du pied de page
+    include 'footer.php';
+?>
+        <!--Site Footer End-->
+
+
+    </div><!-- /.page-wrapper -->
+
+ <?php 
+   include 'SideBar.php';
+   ?>
+ 
+    <!-- /.search-popup -->
+
+    <a href="#" data-target="html" class="scroll-to-target scroll-to-top"><i class="fas fa-arrow-up"></i></a>
+
+
+    <script src="assets/vendors/jquery/jquery-3.6.0.min.js"></script>
+    <script src="assets/vendors/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendors/jarallax/jarallax.min.js"></script>
+    <script src="assets/vendors/jquery-ajaxchimp/jquery.ajaxchimp.min.js"></script>
+    <script src="assets/vendors/jquery-appear/jquery.appear.min.js"></script>
+    <script src="assets/vendors/jquery-circle-progress/jquery.circle-progress.min.js"></script>
+    <script src="assets/vendors/jquery-magnific-popup/jquery.magnific-popup.min.js"></script>
+    <script src="assets/vendors/jquery-validate/jquery.validate.min.js"></script>
+    <script src="assets/vendors/odometer/odometer.min.js"></script>
+    <script src="assets/vendors/swiper/swiper.min.js"></script>
+    <script src="assets/vendors/wnumb/wNumb.min.js"></script>
+    <script src="assets/vendors/wow/wow.js"></script>
+    <script src="assets/vendors/isotope/isotope.js"></script>
+    <script src="assets/vendors/owl-carousel/owl.carousel.min.js"></script>
+    <script src="assets/vendors/bootstrap-select/js/bootstrap-select.min.js"></script>
+    <script src="assets/vendors/jquery-ui/jquery-ui.js"></script>
+    <script src="assets/vendors/jquery.circle-type/jquery.circleType.js"></script>
+    <script src="assets/vendors/jquery.circle-type/jquery.lettering.min.js"></script>
+    <script src="assets/vendors/nice-select/jquery.nice-select.min.js"></script>
+    <script src="assets/vendors/marquee/marquee.min.js"></script>
+
+
+
+
+    <!-- template js -->
+    <script src="assets/js/sonchoy.js"></script>
+</body>
+
+</html>
